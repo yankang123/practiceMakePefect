@@ -31,7 +31,7 @@ class FinishAllAdapter(private val list:ArrayList<finishData>)
            //划勾加划线
            //更新Adapter
        }
-        TODO("根据数据去  看是否已经完成 完成则划勾加划线")
+        //TODO("根据数据去  看是否已经完成 完成则划勾加划线")
        holder.finishTextTwo.setText(list.get(position).textFinish,TextView.BufferType.EDITABLE)
     }
 
